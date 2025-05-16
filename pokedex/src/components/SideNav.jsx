@@ -6,8 +6,12 @@ export function SideNav() {
         //for each pokemon. The {getFullPokedexNumber(pokemonIndex)} is used to return the index of the pokemon and the 
         //{pokemon} in the next line is used to render the name of the pokemon according to the pokedex
         <nav>
+            <div className={"header"}>
+                <h1 className="text-gradient">Pokedex</h1>
+            </div>
+            <input />
             {first151Pokemon.map((pokemon, pokemonIndex) => (
-                <button key={pokemonIndex}>
+                <button  className={'nav-card'} key={pokemonIndex}>
                     <p>{getFullPokedexNumber(pokemonIndex)}</p>
                     <p>{pokemon}</p>
                 </button>
