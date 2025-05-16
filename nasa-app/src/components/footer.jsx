@@ -1,9 +1,14 @@
-export default function footer() {
+export default function Footer() {
     return(
         <div>
             <footer>
-                <p>© 2023 NASA. All rights reserved.</p>
-                <p>Website by [Arpan Ghosal]</p>
+                <div>
+                    <h2>Mars picture</h2>
+                    <h1>APOD Project</h1>
+                </div>
+                <button>
+                    <i className="fa-solid fa-circle-info"></i>
+                </button>
             </footer>
         </div>
     )

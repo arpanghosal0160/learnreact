@@ -1,15 +1,15 @@
 import Main from "./components/Main"
 import SideBar from "./components/SideBar"
-import footer from "./components/footer"
-
+import Footer from "./components/footer"
 
 function App() {
   
   return (
     <>
-      <SideBar />
       <Main />
-      <footer />
+      <SideBar />
+      
+      <Footer />
 
     </>
   )
